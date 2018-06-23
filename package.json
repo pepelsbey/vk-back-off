@@ -3,7 +3,10 @@
   "description": "Removes annoying “Back” & “Go up” buttons from VK.com",
   "private": true,
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-zip": "^3.2.0"
+    "gulp": "^4.0.0",
+    "gulp-zip": "^4.1.0"
+  },
+  "scripts": {
+    "start": "gulp"
   }
 }
