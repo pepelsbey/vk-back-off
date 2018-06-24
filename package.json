@@ -2,11 +2,10 @@
   "name": "vk-back-off",
   "description": "Removes annoying “Back” & “Go up” buttons from VK.com",
   "private": true,
-  "dependencies": {
-    "gulp": "^4.0.0",
-    "gulp-zip": "^4.1.0"
+  "devDependencies": {
+    "bestzip": "^1.1.4"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "bestzip vk-back-off.zip _locales images styles.css manifest.json"
   }
 }
